@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import './App.css';
+
 import axios from 'axios'
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
   },[]);
 
   return (
-    <div className="App">
-      <h1>{backend}</h1>
+    <div className="w-full h-dvh">
+      <h1 className='flex text-4xl'>{backend}</h1>
     </div>
   );
 }
